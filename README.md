@@ -19,3 +19,12 @@
 
 ## Alterar para outras branchs
 ### "GIT CHECKOUT {NOME DA BRANCH QUE VC QUER IR}"
+---
+**para adcionar o repositorio local no Github precisa:**
+cadastrar a key
+e conectar (tudo descrito no menu inicial)
+
+---
+
+## para transferir os comites e arquivos no GitHub
+### "GIT PUSH ORIGIN MASTER"
