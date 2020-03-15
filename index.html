@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>teste</title>
+    <title>Form</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src='app.js'></script>
 </head>
+
 <body>
-    
+    <form id="container" action="" method="post">
+        <label class="input" for="nome">
+            Nome:<br>
+            <input type="text" name="" id="">
+        </label>
+        <label class="input" for="nome">
+            Telefone:
+            <input type="text" name="" id="">
+        </label>
+        <label class="input" for="">Como nos conheceu?
+            <select name="s" id="">
+                <option value="selecione" selected>selecione</option>
+                <option value="Tv">Tv</option>
+                <option value="Internet ">Internet</option>
+                <option value="outros ">outros</option>
+            </select>
+        </label>
+        <label class="input" for="">Possui rede social?
+            <input type="radio" value="sim" name="possuiRedeSocial" id="">
+            <label id="" for="">Sim</label>
+            <input type="radio" value="nao" name="possuiRedeSocial" id="">
+            <label for="">Não</label>
+        </label>
+        <div id="quaisRedes" class="input">
+            Quais?
+            <div>
+                <input type="checkbox" name="redeSocial" id="">
+                <label for="">Facebook</label>
+            </div>
+            <div>
+                <input type="checkbox" name="redeSocial" id="">
+                <label for="">LinkedIn </label>
+            </div>
+            <div>
+                <input type="checkbox" name="redeSocial" id="">
+                <label for="">Instagram</label>
+            </div>
+        </div>
+
+
+        <button type="submit">Enviar</button>
+    </form>
 </body>
+
 </html>
